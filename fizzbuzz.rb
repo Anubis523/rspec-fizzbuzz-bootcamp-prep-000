@@ -2,11 +2,11 @@
 # See README.md for instructions on how to do this
 def fizzbuzz (number)
   if number % 3 == 0 && number % 5 == 0
-    puts "FizzBuzz"
+    puts "FizzBuzz";
   elsif number % 3 == 0
-    puts "Fizz"
+    puts "Fizz";
   elsif number % 5 == 0
-    puts "Buzz"
+    puts "Buzz";
   else
-    puts nil
+    puts nil;
 end
