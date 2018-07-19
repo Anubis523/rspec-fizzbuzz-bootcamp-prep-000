@@ -5,12 +5,12 @@ def fizzbuzz (number)
     return "FizzBuzz"
   end
   elsif number % 3 == 0
-    puts "Fizz"
+    return "Fizz"
   end
   elsif number % 5 == 0
-    puts "Buzz"
+    return "Buzz"
   end
   else
-    puts nil
+    return nil
   end
 end
